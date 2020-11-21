@@ -1,5 +1,5 @@
 /*
-c program to look at the data size occupied by respective data types
+c program to look at the data size occupied by respective DATA TYPES
 21 Nov 2020
 */
 

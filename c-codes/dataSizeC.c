@@ -1,3 +1,8 @@
+/*
+c program to look at the data size occupied by respective data types
+21 Nov 2020
+*/
+
 #include <stdio.h>
 //stdint for modified data types. like int8_t
 #include <stdint.h>

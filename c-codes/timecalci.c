@@ -1,3 +1,8 @@
+/*
+C program to checkk the time taken by a call to execute
+21 Nov 2020
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>

@@ -18,8 +18,14 @@ int main(void)
 	const int SIZE = 5;
 	int ar[SIZE] = {1, 2, 3, 4, 5};
 
-	for (int i = 0; i <= SIZE; ++i)
+	// also check for "i <= SIZE"
+	for (int i = 0; i < SIZE; ++i)
 	{
 		printf("%d\n", ar[i]);
 	}
+
+	// printing address range for modern machines
+	printf("Address(in hexadecimal) of array 'ar' is from %p to %p\n", ar, ar+SIZE);
+
+	return 0;
 }
